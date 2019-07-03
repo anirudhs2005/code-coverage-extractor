@@ -2,8 +2,8 @@ const jsforce = require('jsforce');
 const csv = require('fast-csv');
 const fs = require('fs');
 
-const username = 'asreerambhatla@deloitte.com.hrdevone';
-const password = 'Zsxdc2024!pHlolDjvgLTr9CAKVNEhJrqj6';
+const username = '<insert sf username>';
+const password = '<insert password with sec token>';
 const fileName = 'TestCoverageReport.csv';
 const conn = new jsforce.Connection({
     // you can change loginUrl to connect to sandbox or prerelease env.
